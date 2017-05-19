@@ -25,7 +25,7 @@ A. I am currently writing a separate tutorial from the prospective of someone no
 A. While it is not my primary concentration, I enjoy using web development elements.
 
 #### Q. Why not use a website builder such as WordPress?
-A. Personally, I wanted to learn about web development from scratch. I'm pretty sure there are many free website builder
+A. Personally, I wanted to learn about web development from nothing. I'm pretty sure using one of the many free website builder out there that could have saved me much time and offer more functionality than what I have now but I wanted the experience building one starting from line 1. Plus, I don't want to pay for extra stuff and don't want my original domain name modified.
 
 #### Q. Can I use your website to build my own?
 A. Sure thing! Please fork from my repo so I know who I have influenced in making the website. However, my website has formatting, arrangements, and other elements that best fitted my needs and desires. Some of them may not be appropriate for you or don't like. Therefore, I would highly recommend you integrate the things you liked about my website into your own and change/disregard the rest.
