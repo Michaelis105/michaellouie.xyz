@@ -1,0 +1,92 @@
+/* Custom Stylesheet */
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.footer-svg {
+    fill: white;
+    color: white;
+    padding: 20px;
+}
+
+.modal-svg {
+    padding: 25px;
+}
+
+#modal-svg-github {
+
+}
+
+#modal-svg-linkedin {
+    fill: #0b7fbb;
+}
+
+#modal-svg-facebook {
+    fill: #4761a2;
+}
+
+#modal-svg-youtube {
+    fill: red;
+}
+
+#modal-svg-steam {
+    fill: black;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+}
+
+#modal1 {
+    height: 650px;
+}
+
+#workimg {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 40px;
+}
+
+tr, td {
+    padding: 10px;
+}
+
+.collapsible-header {
+    background-color: #1565c0;
+    color: white;
+}
+
+.collapsible-body {
+    background-color: white;
+}
+
+
+.parallax-container {
+    height: 550px;
+}
+
+p {
+    font-weight: 600;
+}
