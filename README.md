@@ -1,6 +1,6 @@
 # About michaellouie.xyz
 
-This is my official personal portfolio website at michaellouie.xyz. While a strong resume gives recruiters and hiring managers a general idea about I did and what time, it was not clear on how proficient I am at a particular skill or technology. Extending the resume to more than one page is too much to read. 
+This is my official personal portfolio website repo hosted on my local web server accepting traffic for michaellouie.xyz queries. While a strong resume gives recruiters and hiring managers a general idea about I did and what time, it was not clear on how  proficient I am at a particular skill or technology. Extending the resume to more than one page is too much to read. 
 
 Using HTML, CSS, JavaScript, PHP, and Material Design framework "[Materialize](http://materializecss.com/)", I have created 
 this website allowing me to showcase my skills and expertise in a visually pleasing and navigable fashion. I injected a bit of my personality into each page and more details to my portfolio projects and experiences.
