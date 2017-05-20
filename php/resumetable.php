@@ -42,8 +42,8 @@ $langs = array(
     new itemScore("Bash/Shell Scripting", 4),
     new itemScore("XML/JSON/YAML", 4),
     new itemScore("Python", 2),
-    new itemScore("JavaScript", 1),
     new itemScore("HTML/CSS", 2),
+    new itemScore("JavaScript", 1),
     new itemScore("PHP", 1),
     new itemScore("MATLAB", 1),
     new itemScore("LabVIEW", 1)
@@ -79,6 +79,7 @@ $tools = array(
     new itemScore("Gradle", 3),
     new itemScore("Agile", 3),
     new itemScore("Linux", 3),
+    new itemScore("Unix", 1),
     new itemScore("Windows", 3),
     new itemScore("Docker", 4),
     new itemScore("JUnit", 3),
@@ -87,6 +88,7 @@ $tools = array(
     new itemScore("Mesos/Marathon", 3),
     new itemScore("Qt", 2),
     new itemScore("GTK+3", 1),
+    new itemScore("Technical writing", 4),
     new itemScore("Version Control", 4),
     new itemScore("Source Code Management", 4),
     new itemScore("Android", 1)

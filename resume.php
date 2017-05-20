@@ -14,7 +14,8 @@
             <br>
             <h6 class="header center white-text">Or download the shorter version below</h6>
             <div class="row center">
-                <a href="resources/michael_louie_resume.pdf" id="download-button" class="btn-large waves-effect waves-light teal lighten-1"><i class="material-icons right">perm_identity</i>Download Résumé</a>
+                <a href="resources/michael_louie_resume.pdf" id="download-button" class="btn-large waves-effect waves-light blue lighten-1"><i class="material-icons right">perm_identity</i>Download Résumé</a>
+                <a href="resources/michael_louie_resume_ats.pdf" id="download-button" class="btn-large waves-effect waves-light purple lighten-1"><i class="material-icons right">perm_identity</i>Download Résumé ATS</a>
             </div>
             <br><br>
 
@@ -90,8 +91,8 @@
                         <span>I contributed to initiatives for integrating commercial off-the-shelf (COTS) products to Lockheed Martin software. By developing software with proprietary and COTS products, I was able to help the company deliver secure, robust, and scalable sonar functionalities to the U.S. Navy's submarine fleet while reducing cost for both the company and the customer.</span>
                         <ul>
                             <li>- Designed and implemented event-drive Java API for deploying sonar applications with cluster management and scheduling software.</li>
-                            <li>- Integrated in-memory container virtualization to signal processing systems for rapid deployment, security, and scalability resulting in 75% reduction in application deployment time.</li>
-                            <li>- Enhanced operator control over sonar system processes and compute resource management with intuitive visuzliations and web UIDeveloped web UI dashboard using JavaFX and D3.</li>
+                            <li>- Integrated in-memory container virtualization to signal processing and distributed systems for rapid deployment, security, and scalability resulting in 75% reduction in application deployment time.</li>
+                            <li>- Enhanced operator control over sonar system processes and compute resource management with intuitive visuzliations and web UI using JavaFX and D3.</li>
                             <li>- Optimized research and development efforts by conducting FOSS critical item testing to identify key features to accomplish virtualization customer requirements.</li>
                             <br>
                             <li>
@@ -138,7 +139,7 @@
                         <span>I supported the NFS team at Data Domain to implement NFS with data storage products.</span>
                         <ul>
                             <li>- Developed multi-threaded implementation of NFSv4.</li>
-                            <li>- Created debugging scripts to improve cross-team-platform testing and bug triaging capabilities.</li>
+                            <li>- Created debugging scripts to improve cross-team-platform testing and bug triaging capabilities in production environments.</li>
                             <li>- Benchmarked data storage modules to identify performance bottlenecking points and target optimization efforts.</li>
                             <br>
                             <li>
