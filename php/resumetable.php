@@ -11,7 +11,7 @@ echo '
         <p><b>1 - Experimenting/Relearning:</b> Understood basics of technology or evaluating capabilities and comprehension.</p>
         <p><b>2 - Knowledgeable:</b> Created small- to medium-scale software or leveraged to demonstrate understanding of technology.</p>
         <p><b>3 - Applying:</b> Created software or leveraged to deliverable standard for public, personal, or open-source access.</p>
-        <p><b>4 - Producing:</b> Created software or leveraged to industrial standard for generating revenue, solving world problem, or enhancing life.</p>
+        <p><b>4 - Producing:</b> Created software or leveraged to industry standards for generating revenue, solving world problem, or enhancing life.</p>
         <p><b>5 - Mastery:</b> With time I will be at this level.</p>
         </div>
     </li>
