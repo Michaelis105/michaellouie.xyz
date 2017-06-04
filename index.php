@@ -5,36 +5,34 @@
 <?php require 'php/navbar.php'; ?>
 
 <!-- Body -->
-<div class="section no-pad" id="index-banner">
-    <div id="index-banner" class="parallax-container z-depth-3">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <br><br>
-                <div class="row">
-                    <h1 class="header right white-text" style="font-weight: 600">Michael Louie</h1>
-                </div>
-                <div class="row">
-                    <div class="chip right blue white-text z-depth-4">Software Engineer</div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m5"></div>
-                    <div class="col s12 m7">
-                        <div class="chip right blue white-text z-depth-3">Team-oriented</div>
-                        <div class="chip right blue white-text z-depth-3">Customer-focused</div>
-                        <div class="chip right blue white-text z-depth-3">Sociable</div>
-                        <div class="chip right blue white-text z-depth-3">Multi-tasker</div>
-                        <div class="chip right blue white-text z-depth-3">Multi-lingual</div>
-                        <div class="chip right blue white-text z-depth-3">Best Practices</div>
-                        <div class="chip right blue white-text z-depth-3">Presenter</div>
-                        <div class="chip right blue white-text z-depth-3">Mentor</div>
-                        <div class="chip right blue white-text z-depth-3">Communicator</div>
-                    </div>
-                </div>
-                <a href="about.php" class="waves-effect waves-light btn indigo right z-depth-3"><i class="material-icons right">play_arrow</i>Learn more about me</a>
+<div class="section no-pad">
+    <div id="index-banner" class="section">
+        <div class="container center-align">
+            <br><br>
+            <div class="row center-align">
+                <img class="z-depth-3 circle responsive-img" src="resources/img/menycut.jpg" alt="Michael Louie">
             </div>
+            <div class="row">
+                <h1 class="header white-text" style="font-weight: 500">Michael Louie</h1>
+            </div>
+            <div class="row">
+                <div class="chip blue white-text z-depth-4">Software Engineer</div>
+            </div>
+            <div class="row">
+                    <div class="chip  blue white-text z-depth-3">Team-oriented</div>
+                    <div class="chip  blue white-text z-depth-3">Customer-focused</div>
+                    <div class="chip  blue white-text z-depth-3">Sociable</div>
+                    <div class="chip  blue white-text z-depth-3">Multi-tasker</div>
+                    <div class="chip  blue white-text z-depth-3">Multi-lingual</div>
+                    <div class="chip  blue white-text z-depth-3">Best Practices</div>
+                    <div class="chip  blue white-text z-depth-3">Presenter</div>
+                    <div class="chip  blue white-text z-depth-3">Mentor</div>
+                    <div class="chip  blue white-text z-depth-3">Communicator</div>
+            </div>
+            <a href="about.php" class="waves-effect waves-light btn indigo z-depth-3"><i class="material-icons right">play_arrow</i>Learn more about me</a>
         </div>
-        <div class="parallax"><img src="resources/img/meny.jpg" style="filter: brightness(90%);" alt="Michael Louie"></div>
     </div>
+
     <div class="section">
         <div class="row">
             <div class="col s12 m5">

@@ -12,6 +12,7 @@ $(document).ready(function(){
     $('.parallax').parallax();
     $('.modal').modal();
     $(".button-collapse").sideNav();
+    $('.slider').slider({'height': 100, 'interval':120000});
 });
 
 

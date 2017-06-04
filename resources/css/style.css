@@ -82,11 +82,16 @@ tr, td {
     background-color: white;
 }
 
-
-.parallax-container {
-    height: 550px;
-}
-
 p {
     font-weight: 600;
+}
+
+#index-banner {
+    background: linear-gradient(180deg, #1565c0, #8fc9f8);
+    width: 100%;
+    height: inherit;
+}
+
+p.flow-text {
+
 }

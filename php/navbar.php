@@ -4,7 +4,7 @@
 <div class="navbar-fixed">
     <nav class="blue darken-3">
         <div class="nav-wrapper container">
-            <a href="index.php" class="brand-logo"><i class="material-icons">language</i>Michael Louie</a>            
+            <a href="index.php" class="brand-logo">Michael Louie</a>            
             <ul class="right hide-on-med-and-down">
                 <li><a href="about.php">About</a></li>
                 <li><a href="portfolio.php">Portfolio</a></li>

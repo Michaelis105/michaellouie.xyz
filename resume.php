@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php require 'php/headelements.php'; ?>
+<style>
+</style>
 <body class="blue lighten-3">
 <?php require 'php/navbar.php'; ?>
 
-<div class="section no-pad" id="index-banner">
+<div class="section no-pad">
     <div class="parallax-container">
         <div class="parallax "><img src="resources/img/code.jpeg" style="filter: brightness(40%);"></div>
         <div class="container">
-            <br><br><br><br>
+            <br><br><br>
             <h1 class="header center white-text">DIGGING DEEPER</h1>
             <h5 class="header center white-text">Find out my accomplishments, skills, competencies, and expertise</h5>
             <br>
@@ -23,179 +25,176 @@
     </div>
 
     <div class="section container" id="work">
-        <div class="col s12 m3">
-            <h3 class="header">Work Experience</h3>
-            <div class="card horizontal">
-                <div class="card-image">
-                    <img id="workimg" src="../resources/img/verisign-logo.jpg" alt="Verisign">
+        <h3 class="header">Work Experience</h3>
+
+        <div class="card-panel">
+            <div class="row">
+                <div class="col s12 m6">
+                    <img class="responsive-img" id="workimg" src="../resources/img/verisign-logo.jpg" alt="Verisign">
                 </div>
-                <div class="card-stacked">
-                    <div class="card-content">
-                        <p class="">Software Engineer I</p>
-                        <p class="">Verisign, Inc., Reston, VA</p>
-                        <p class="">February 27, 2017 - Present</p>
-                    </div>
-                </div>
-            </div>
-            <ul class="collapsible" data-collapsible="accordion">
-                <li>
-                    <div class="collapsible-header"><i class="material-icons left">info_outline</i>What am I doing now at Verisign?<i class="material-icons right">import_export</i></div>
-                    <div class="collapsible-body">
-                        <span>I am working on the Consolidated Top-Level Domain (CTLD) and DotGov programs for domain provisioning services.</span>
-                        <span>I am supporting multiple initiatives and projects for expanding domain provisioning capabilities to allow registrars to manage their domains and registrants to secure their dream domain.</span>
-                        <ul>
-                            <li>- Back-end Java development of provisioning systems and architecture.</li>
-                            <li>- Integrating vulnerability detection features and tools to secure products and reduce technical debt.</li>
-                            <li>- Build automation using Gradle, Ansible, and Bash scripting to reduce development complexity and build times.</li>
-                            <li>- Testing for product and deployment certification.</li>
-                            <li>- Analysis of customer/registrar and ICANN requirements to provide reliable and available provisioning services to registrars.</li>
-                            <br>
-                            <li>
-                                <div class="chip blue white-text z-depth-2">Java</div>
-                                <div class="chip blue white-text z-depth-2">Bash/Shell Scripting</div>
-                                <div class="chip blue white-text z-depth-2">HTML/CSS</div>
-                                <div class="chip blue white-text z-depth-2">Linux</div>
-                                <div class="chip blue white-text z-depth-2">Gradle</div>
-                                <div class="chip blue white-text z-depth-2">Ansible</div>
-                                <div class="chip blue white-text z-depth-2">XML/JSON/YAML</div>
-                                <div class="chip blue white-text z-depth-2">RHEL</div>
-                                <div class="chip blue white-text z-depth-2">Agile/SCRUM</div>
-                                <div class="chip blue white-text z-depth-2">jinjava</div>
-                                <div class="chip blue white-text z-depth-2">Git</div>
-                                <div class="chip blue white-text z-depth-2">OWASP Dependency Check</div>
-                            </li>
-                        </ul>
-                        <br>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="col s12 m3">
-            <div class="card horizontal">
-                <div class="card-image">
-                    <img id="workimg" src="../resources/img/lockheed-martin-logo.jpg" alt="Lockheed Martin">
-                </div>
-                <div class="card-stacked">
-                    <div class="card-content">
-                        <p class="">Software Engineer Associate</p>
-                        <p class="">Lockheed Martin, Manassas, VA</p>
-                        <p class="">June 6, 2016 - February 3, 2017</p>
-                    </div>
+                <div class="col s12 m6">
+                    <p class="">Software Engineer I</p>
+                    <p class="">Verisign, Inc., Reston, VA</p>
+                    <p class="">February 27, 2017 - Present</p>
                 </div>
             </div>
-            <ul class="collapsible" data-collapsible="accordion">
-                <li>
-                    <div class="collapsible-header"><i class="material-icons">info_outline</i>What did I accomplish at Lockheed Martin?<i class="material-icons right">import_export</i></div>
-                    <div class="collapsible-body">
-                        <span>I supported the Acoustic Rapid COTS Insertion (A-RCI) System Services program for the U.S. Navy.</span>
-                        <span>I contributed to initiatives for integrating commercial off-the-shelf (COTS) products to Lockheed Martin software. By developing software with proprietary and COTS products, I was able to help the company deliver secure, robust, and scalable sonar functionalities to the U.S. Navy's submarine fleet while reducing cost for both the company and the customer.</span>
-                        <ul>
-                            <li>- Designed and implemented event-drive Java API for deploying sonar applications with cluster management and scheduling software.</li>
-                            <li>- Integrated in-memory container virtualization to signal processing and distributed systems for rapid deployment, security, and scalability resulting in 75% reduction in application deployment time.</li>
-                            <li>- Enhanced operator control over sonar system processes and compute resource management with intuitive visuzliations and web UI using JavaFX and D3.</li>
-                            <li>- Optimized research and development efforts by conducting FOSS critical item testing to identify key features to accomplish virtualization customer requirements.</li>
-                            <br>
-                            <li>
-                                <div class="chip blue white-text z-depth-2">Java</div>
-                                <div class="chip blue white-text z-depth-2">Docker</div>
-                                <div class="chip blue white-text z-depth-2">Bash/Shell Scripting</div>
-                                <div class="chip blue white-text z-depth-2">JavaFX</div>
-                                <div class="chip blue white-text z-depth-2">Mesos</div>
-                                <div class="chip blue white-text z-depth-2">Marathon</div>
-                                <div class="chip blue white-text z-depth-2">Zookeeper</div>
-                                <div class="chip blue white-text z-depth-2">JSON</div>
-                                <div class="chip blue white-text z-depth-2">D3</div>
-                                <div class="chip blue white-text z-depth-2">Linux</div>
-                                <div class="chip blue white-text z-depth-2">RHEL</div>
-                                <div class="chip blue white-text z-depth-2">Gradle</div>
-                                <div class="chip blue white-text z-depth-2">Agile/SCRUM</div>
-                                <div class="chip blue white-text z-depth-2">Technical writing</div>
-                                <div class="chip blue white-text z-depth-2">UML</div>
-                                <div class="chip blue white-text z-depth-2">Requirements analysis</div>
-                            </li>
-                        </ul>
-                        <br>
-                    </div>
-                </li>
-            </ul>
         </div>
-        <div class="col s12 m3">
-            <div class="card horizontal">
-                <div class="card-image">
-                    <img id="workimg" src="../resources/img/emc-corp-logo.jpg" alt="EMC2">
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header"><i class="material-icons left">info_outline</i>What I'm doing at Verisign?<i class="material-icons right">import_export</i></div>
+                <div class="collapsible-body">
+                    <span>I am working on the Consolidated Top-Level Domain (CTLD) and DotGov programs for domain provisioning services.</span>
+                    <span>I am supporting multiple initiatives and projects for expanding domain provisioning capabilities to allow registrars to manage their domains and registrants to secure their dream domain.</span>
+                    <ul>
+                        <li>- Back-end Java development of provisioning systems and architecture.</li>
+                        <li>- Integrating vulnerability detection features and tools to secure products and reduce technical debt.</li>
+                        <li>- Build automation using Gradle, Ansible, and Bash scripting to reduce development complexity and build times.</li>
+                        <li>- Testing for product and deployment certification.</li>
+                        <li>- Analysis of customer/registrar and ICANN requirements to provide reliable and available provisioning services to registrars.</li>
+                        <br>
+                        <li>
+                            <div class="chip blue white-text z-depth-2">Java</div>
+                            <div class="chip blue white-text z-depth-2">Bash/Shell Scripting</div>
+                            <div class="chip blue white-text z-depth-2">HTML/CSS</div>
+                            <div class="chip blue white-text z-depth-2">Linux</div>
+                            <div class="chip blue white-text z-depth-2">Gradle</div>
+                            <div class="chip blue white-text z-depth-2">Ansible</div>
+                            <div class="chip blue white-text z-depth-2">XML/JSON/YAML</div>
+                            <div class="chip blue white-text z-depth-2">RHEL</div>
+                            <div class="chip blue white-text z-depth-2">Agile/SCRUM</div>
+                            <div class="chip blue white-text z-depth-2">jinjava</div>
+                            <div class="chip blue white-text z-depth-2">Git</div>
+                            <div class="chip blue white-text z-depth-2">OWASP Dependency Check</div>
+                        </li>
+                    </ul>
+                    <br>
                 </div>
-                <div class="card-stacked">
-                    <div class="card-content">
-                        <p class="">Software Engineer Intern</p>
-                        <p class="">EMC Corporation, Data Domain, Durham, NC</p>
-                        <p class="">May 26, 2015 - August 12, 2015</p>
-                    </div>
+            </li>
+        </ul>
+
+        <div class="card-panel">
+            <div class="row">
+                <div class="col s12 m6">
+                    <img class="responsive-img" id="workimg" src="../resources/img/lockheed-martin-logo.jpg" alt="Lockheed Martin">
+                </div>
+                <div class="col s12 m6">
+                    <p class="">Software Engineer Associate</p>
+                    <p class="">Lockheed Martin, Manassas, VA</p>
+                    <p class="">June 6, 2016 - February 3, 2017</p>
                 </div>
             </div>
-            <ul class="collapsible" data-collapsible="accordion">
-                <li>
-                    <div class="collapsible-header"><i class="material-icons">info_outline</i>What did I accomplish at EMC?<i class="material-icons right">import_export</i></div>
-                    <div class="collapsible-body">
-                        <span>I supported the NFS team at Data Domain to implement NFS with data storage products.</span>
-                        <ul>
-                            <li>- Developed multi-threaded implementation of NFSv4.</li>
-                            <li>- Created debugging scripts to improve cross-team-platform testing and bug triaging capabilities in production environments.</li>
-                            <li>- Benchmarked data storage modules to identify performance bottlenecking points and target optimization efforts.</li>
-                            <br>
-                            <li>
-                                <div class="chip blue white-text z-depth-2">C</div>
-                                <div class="chip blue white-text z-depth-2">Bash/Shell Scripting</div>
-                                <div class="chip blue white-text z-depth-2">Linux</div>
-                                <div class="chip blue white-text z-depth-2">Virtual Machines</div>
-                                <div class="chip blue white-text z-depth-2">NFS</div>
-                                <div class="chip blue white-text z-depth-2">Perforce</div>
-                                <div class="chip blue white-text z-depth-2">Agile/SCRUM</div>
-                            </li>
-                        </ul>
-                        <br>
-                    </div>
-                </li>
-            </ul>
         </div>
-        <div class="col s12 m3">
-            <div class="card horizontal">
-                <div class="card-image">
-                    <img id="workimg" src="../resources/img/navsea-logo.jpg" alt="NAVSEA">
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">info_outline</i>What I achieved at Lockheed Martin?<i class="material-icons right">import_export</i></div>
+                <div class="collapsible-body">
+                    <span>I supported the Acoustic Rapid COTS Insertion (A-RCI) System Services program for the U.S. Navy.</span>
+                    <span>I contributed to initiatives for integrating commercial off-the-shelf (COTS) products to Lockheed Martin software. By developing software with proprietary and COTS products, I was able to help the company deliver secure, robust, and scalable sonar functionalities to the U.S. Navy's submarine fleet while reducing cost for both the company and the customer.</span>
+                    <ul>
+                        <li>- Designed and implemented event-drive Java API for deploying sonar applications with cluster management and scheduling software.</li>
+                        <li>- Integrated in-memory container virtualization to signal processing and distributed systems for rapid deployment, security, and scalability resulting in 75% reduction in application deployment time.</li>
+                        <li>- Enhanced operator control over sonar system processes and compute resource management with intuitive visuzliations and web UI using JavaFX and D3.</li>
+                        <li>- Optimized research and development efforts by conducting FOSS critical item testing to identify key features to accomplish virtualization customer requirements.</li>
+                        <br>
+                        <li>
+                            <div class="chip blue white-text z-depth-2">Java</div>
+                            <div class="chip blue white-text z-depth-2">Docker</div>
+                            <div class="chip blue white-text z-depth-2">Bash/Shell Scripting</div>
+                            <div class="chip blue white-text z-depth-2">JavaFX</div>
+                            <div class="chip blue white-text z-depth-2">Mesos</div>
+                            <div class="chip blue white-text z-depth-2">Marathon</div>
+                            <div class="chip blue white-text z-depth-2">Zookeeper</div>
+                            <div class="chip blue white-text z-depth-2">JSON</div>
+                            <div class="chip blue white-text z-depth-2">D3</div>
+                            <div class="chip blue white-text z-depth-2">Linux</div>
+                            <div class="chip blue white-text z-depth-2">RHEL</div>
+                            <div class="chip blue white-text z-depth-2">Gradle</div>
+                            <div class="chip blue white-text z-depth-2">Agile/SCRUM</div>
+                            <div class="chip blue white-text z-depth-2">Technical writing</div>
+                            <div class="chip blue white-text z-depth-2">UML</div>
+                            <div class="chip blue white-text z-depth-2">Requirements analysis</div>
+                        </li>
+                    </ul>
+                    <br>
                 </div>
-                <div class="card-stacked">
-                    <div class="card-content">
-                        <p class="">Software Engineer Intern</p>
-                        <p class="">Naval Surface Warfare Center Dahlgren Division, Dahlgren, VA</p>
-                        <p class="">June 2, 2014 - August 8, 2014</p>
-                        <p class="">June 22, 2013 - August 16, 2013</p>
-                    </div>
+            </li>
+        </ul>
+
+        <div class="card-panel">
+            <div class="row">
+                <div class="col s12 m6">
+                    <img class="responsive-img" id="workimg" src="../resources/img/emc-corp-logo.jpg" alt="EMC2">
+                </div>
+                <div class="col s12 m6">
+                    <p class="">Software Engineer Intern</p>
+                    <p class="">EMC Corporation, Data Domain, Durham, NC</p>
+                    <p class="">May 26, 2015 - August 12, 2015</p>
                 </div>
             </div>
-            <ul class="collapsible" data-collapsible="accordion">
-                <li>
-                    <div class="collapsible-header"><i class="material-icons">info_outline</i>What did I accomplish at NSWC?<i class="material-icons right">import_export</i></div>
-                    <div class="collapsible-body">
-                        <span>I supported the U.S. Navy through various Office of Naval Research (ONR) programs including the USS Secure cyber security initiatives and U.S. Marines SOA environment.</span>
-                        <span>My first internship here was immediately after graduating high school and the start of my STEM career.</span>
-                        <ul>
-                            <li>- Integrated a host-based intrusion detection system with the AEGIS fleet combat system enhancing operator cyber security capabilities.</li>
-                            <li>- Designed future ship power control GUI for integrating and managing tactical laser weapons to ship energy generation storage systems.</li>
-                            <li>- Completed technical presentations to the U.S. Navy captain of the base and multiple program directors, twice.</li>
-                            <br>
-                            <li>
-                                <div class="chip blue white-text z-depth-2">Java</div>
-                                <div class="chip blue white-text z-depth-2">Bash/Shell Scripting</div>
-                                <div class="chip blue white-text z-depth-2">Linux</div>
-                                <div class="chip blue white-text z-depth-2">RHEL</div>
-                                <div class="chip blue white-text z-depth-2">Agile/SCRUM</div>
-                                <div class="chip blue white-text z-depth-2">Technical writing</div>
-                            </li>
-                        </ul>
-                        <br>
-                    </div>
-                </li>
-            </ul>
         </div>
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">info_outline</i>What I achieved at EMC?<i class="material-icons right">import_export</i></div>
+                <div class="collapsible-body">
+                    <span>I supported the NFS team at Data Domain to implement NFS with data storage products.</span>
+                    <ul>
+                        <li>- Developed multi-threaded implementation of NFSv4.</li>
+                        <li>- Created debugging scripts to improve cross-team-platform testing and bug triaging capabilities in production environments.</li>
+                        <li>- Benchmarked data storage modules to identify performance bottlenecking points and target optimization efforts.</li>
+                        <br>
+                        <li>
+                            <div class="chip blue white-text z-depth-2">C</div>
+                            <div class="chip blue white-text z-depth-2">Bash/Shell Scripting</div>
+                            <div class="chip blue white-text z-depth-2">Linux</div>
+                            <div class="chip blue white-text z-depth-2">Virtual Machines</div>
+                            <div class="chip blue white-text z-depth-2">NFS</div>
+                            <div class="chip blue white-text z-depth-2">Perforce</div>
+                            <div class="chip blue white-text z-depth-2">Agile/SCRUM</div>
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+            </li>
+        </ul>
+
+        <div class="card-panel">
+            <div class="row">
+                <div class="col s12 m6">
+                    <img class="responsive-img" id="workimg" src="../resources/img/navsea-logo.jpg" alt="NAVSEA">
+                </div>
+                <div class="col s12 m6">
+                    <p class="">Software Engineer Intern</p>
+                    <p class="">Naval Surface Warfare Center Dahlgren Division, Dahlgren, VA</p>
+                    <p class="">June 2, 2014 - August 8, 2014</p>
+                    <p class="">June 22, 2013 - August 16, 2013</p>
+                </div>
+            </div>
+        </div>
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">info_outline</i>What I achieved at NSWC?<i class="material-icons right">import_export</i></div>
+                <div class="collapsible-body">
+                    <span>I supported the U.S. Navy through various Office of Naval Research (ONR) programs including the USS Secure cyber security initiatives and U.S. Marines SOA environment.</span>
+                    <span>My first internship here was immediately after graduating high school and the start of my STEM career.</span>
+                    <ul>
+                        <li>- Integrated a host-based intrusion detection system with the AEGIS fleet combat system enhancing operator cyber security capabilities.</li>
+                        <li>- Designed future ship power control GUI for integrating and managing tactical laser weapons to ship energy generation storage systems.</li>
+                        <li>- Completed technical presentations to the U.S. Navy captain of the base and multiple program directors, twice.</li>
+                        <br>
+                        <li>
+                            <div class="chip blue white-text z-depth-2">Java</div>
+                            <div class="chip blue white-text z-depth-2">Bash/Shell Scripting</div>
+                            <div class="chip blue white-text z-depth-2">Linux</div>
+                            <div class="chip blue white-text z-depth-2">RHEL</div>
+                            <div class="chip blue white-text z-depth-2">Agile/SCRUM</div>
+                            <div class="chip blue white-text z-depth-2">Technical writing</div>
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+            </li>
+        </ul>
+
     </div>
 
     <div class="section container" id="tech">
@@ -258,7 +257,7 @@
                 <h3 class="header">Education</h3>
                 <div class="card">
                     <div class="card-image">
-                        <img style="padding: 30px" src="resources/img/VT_logo.svg.png">
+                        <img style="padding: 30px" src="resources/img/VT_logo.png">
                     </div>
                     <div class="card-content">
                         <h6>B.S. in Computer Science</h6>
