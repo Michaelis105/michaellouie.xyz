@@ -48,7 +48,7 @@
                     <ul>
                         <li>- Back-end Java development of provisioning systems and architecture.</li>
                         <li>- Integrating vulnerability detection features and tools to secure products and reduce technical debt.</li>
-                        <li>- Build automation using Gradle, Ansible, and Bash scripting to reduce development complexity and build times.</li>
+                        <li>- Writing build automation and continuous integration procedures using TeamCity, Gradle, Ansible, and Bash scripting to reduce development complexity and build times.</li>
                         <li>- Testing for product and deployment certification.</li>
                         <li>- Analysis of customer/registrar and ICANN requirements to provide reliable and available provisioning services to registrars.</li>
                         <br>
@@ -61,6 +61,7 @@
                             <div class="chip blue white-text z-depth-2">Ansible</div>
                             <div class="chip blue white-text z-depth-2">XML/JSON/YAML</div>
                             <div class="chip blue white-text z-depth-2">RHEL</div>
+                            <div class="chip blue white-text z-depth-2">TeamCity</div>
                             <div class="chip blue white-text z-depth-2">Agile/SCRUM</div>
                             <div class="chip blue white-text z-depth-2">jinjava</div>
                             <div class="chip blue white-text z-depth-2">Git</div>

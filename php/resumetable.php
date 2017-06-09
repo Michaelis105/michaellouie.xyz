@@ -88,6 +88,8 @@ $tools = array(
     new itemScore("Mesos/Marathon", 3),
     new itemScore("Qt", 2),
     new itemScore("GTK+3", 1),
+    new itemScore("TeamCity", 1),
+    new itemScore("Apache HTTP Server", 2),
     new itemScore("Technical writing", 4),
     new itemScore("Version Control", 4),
     new itemScore("Source Code Management", 4),
