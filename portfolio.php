@@ -86,7 +86,7 @@
                     <span class="card-title grey-text text-darken-4">OWASP-DC-XMLP<i class="material-icons right">more_vert</i></span>
                     <p>
                         Combine all of your OWASP Dependency Check reports into one document using this parser.
-                        The current OWASP Dependency Check does an amazing job identifying publicly disclosed
+                        The current OWASP Dependency Check software does an amazing job identifying publicly disclosed
                         vulnerabilities with project dependencies but outputs individual reports for every subproject
                         leading to high storage consumption.
                         OWASP-DC-XMLP allows the user to combine the output XML into a customizable single CSV or HTML
