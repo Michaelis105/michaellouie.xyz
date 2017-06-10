@@ -18,10 +18,25 @@
 </div>
 </header>
 <ul class="side-nav blue darken-4 z-depth-5" id="mobile-demo">
-    <li><a href="about.php" class="white-text">About</a></li>
-    <li><a href="portfolio.php" class="white-text">Portfolio</a></li>
-    <li><a href="resume.php" class="white-text">Résumé</a></li>
-    <li><a class="waves-effect waves-light white-text" href="#modal1" >Contact</a></li>
+    <li>
+        <div class="userView">
+            <div class="background">
+                <img src="../resources/img/side-bar-badge-background.jpg">
+            </div>
+            <a href=""><img class="circle" src="../resources/img/orig-me-look.jpg"></a>
+            <a href=""><span class="white-text name">Michael Louie</span></a>
+            <a href=""><span class="white-text email">michael.louie10@gmail.com</span></a>
+        </div>
+    </li>
+    <li><a href="about.php" class="white-text waves-effect">
+        <i class="material-icons white-text">info_outline</i>About</a></li>
+    <li><a href="portfolio.php" class="white-text waves-effect">
+        <i class="material-icons white-text">dashboard</i>Portfolio</a></li>
+    <li><a href="resume.php" class="white-text waves-effect">
+        <i class="material-icons white-text">description</i>Résumé</a></li>
+    <li><a class="waves-effect waves-light white-text waves-effect" href="#modal1" >
+        <i class="material-icons white-text">perm_phone_msg</i>Contact</a></li>
 </ul>
+
 <!-- .Navbar -->
 '; ?>

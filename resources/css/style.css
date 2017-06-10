@@ -95,3 +95,7 @@ p {
 p.flow-text {
 
 }
+
+.side-nav {
+    width: 250px; /*fits LinkedIn badge width*/
+}
