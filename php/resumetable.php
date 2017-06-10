@@ -90,7 +90,7 @@ $tools = array(
     new itemScore("GTK+3", 1),
     new itemScore("TeamCity", 1),
     new itemScore("Apache HTTP Server", 2),
-    new itemScore("Technical writing", 4),
+    new itemScore("Technical Writing", 4),
     new itemScore("Version Control", 4),
     new itemScore("Source Code Management", 4),
     new itemScore("Android", 1)
