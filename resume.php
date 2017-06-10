@@ -91,9 +91,9 @@
                     <span>I supported the Acoustic Rapid COTS Insertion (A-RCI) System Services program for the U.S. Navy.</span>
                     <span>I contributed to initiatives for integrating commercial off-the-shelf (COTS) products to Lockheed Martin software. By developing software with proprietary and COTS products, I was able to help the company deliver secure, robust, and scalable sonar functionalities to the U.S. Navy's submarine fleet while reducing cost for both the company and the customer.</span>
                     <ul>
-                        <li>- Designed and implemented event-drive Java API for deploying sonar applications with cluster management and scheduling software.</li>
+                        <li>- Designed and implemented event-driven Java API for deploying sonar applications with cluster management and scheduling software.</li>
                         <li>- Integrated in-memory container virtualization to signal processing and distributed systems for rapid deployment, security, and scalability resulting in 75% reduction in application deployment time.</li>
-                        <li>- Enhanced operator control over sonar system processes and compute resource management with intuitive visuzliations and web UI using JavaFX and D3.</li>
+                        <li>- Enhanced operator control over sonar system processes and compute resource management with intuitive visualizations and web UI using JavaFX and D3.</li>
                         <li>- Optimized research and development efforts by conducting FOSS critical item testing to identify key features to accomplish virtualization customer requirements.</li>
                         <br>
                         <li>
