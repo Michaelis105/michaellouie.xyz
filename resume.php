@@ -17,7 +17,6 @@
             <h6 class="header center white-text">Or download the shorter version below</h6>
             <div class="row center">
                 <a href="resources/michael_louie_resume.pdf" id="download-button" class="btn-large waves-effect waves-light blue lighten-1"><i class="material-icons right">perm_identity</i>Download Résumé</a>
-                <a href="resources/michael_louie_resume_ats.pdf" id="download-button" class="btn-large waves-effect waves-light purple lighten-1"><i class="material-icons right">perm_identity</i>Download Résumé ATS</a>
             </div>
             <br><br>
 
