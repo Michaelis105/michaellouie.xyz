@@ -202,5 +202,3 @@
 <?php require 'php/footer.php'; ?>
 <?php require 'php/jsimports.php'; ?>
 </body>
-
-<!-- TODO Do, add captions, add scrollspy to all documents-->
