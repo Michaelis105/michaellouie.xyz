@@ -1,4 +1,4 @@
-# About michaellouie.xyz
+# About michaellouie.xyz/net
 
 This is my official personal portfolio website repo hosted on my local web server accepting traffic for michaellouie.xyz queries. While a strong resume gives recruiters and hiring managers a general idea about I did and what time, it does not convey cleary on how proficient I am at a particular skill or technology. Extending the resume to more than one page would be too much to read.
 
