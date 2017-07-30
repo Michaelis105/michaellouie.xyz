@@ -55,28 +55,6 @@
         <div class="col s12 m6 l4 xl3">
             <div class="card sticky-action z-depth-2">
                 <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="resources/img/archer.jpg">
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Diana<i class="material-icons right">more_vert</i></span>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Diana<i class="material-icons right">more_vert</i></span>
-                    <p>
-                        Search all the popular online job search engines for the right jobs and companies from a single
-                        tool.
-                        This project is undergoing intensive design and planning.
-                    </p>
-                </div>
-                <div class="card-action">
-                    <a href="https://github.com/Michaelis105/Diana">Hunt for jobs!</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col s12 m6 l4 xl3">
-            <div class="card sticky-action z-depth-2">
-                <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" src="resources/img/orig-combine-report.jpg">
                 </div>
                 <div class="card-content">
