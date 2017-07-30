@@ -20,7 +20,7 @@
                         This free open source software utilizes a Qt frontend and C++ backend to deliver the best
                         performance.
                         Although this program will primarily support its proprietary format to store the most
-                        information, it will also support GEDCOM 5.5 for compatibility across other genealogy programs.
+                        information, it will also support GEDCOM X for compatibility across other genealogy programs.
                     </p>
                 </div>
                 <div class="card-action">
