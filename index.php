@@ -3,7 +3,7 @@
 <?php require 'php/headelements.php'; ?>
 <body class="blue lighten-3">
 <?php require 'php/navbar.php'; ?>
-
+<?php include_once("analyticstracking.php") ?>
 <!-- Body -->
 <div class="section no-pad">
     <div id="index-banner" class="section">

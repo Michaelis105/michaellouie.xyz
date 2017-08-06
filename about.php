@@ -11,6 +11,7 @@
 </style>
 <body class="blue lighten-3">
 <?php require 'php/navbar.php'; ?>
+<?php include_once("analyticstracking.php") ?>
 <div class="section no-pad">
     <div class="parallax-container z-depth-3">
         <div class="section no-pad-bot">

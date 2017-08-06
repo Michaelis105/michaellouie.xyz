@@ -5,7 +5,7 @@
 </style>
 <body class="blue lighten-3">
 <?php require 'php/navbar.php'; ?>
-
+<?php include_once("analyticstracking.php") ?>
 <div class="section no-pad">
     <div class="parallax-container">
         <div class="parallax "><img src="resources/img/code.jpeg" style="filter: brightness(40%);"></div>
