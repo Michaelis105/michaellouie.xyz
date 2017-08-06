@@ -3,7 +3,7 @@
 <?php require 'php/headelements.php'; ?>
 <body>
 <?php require 'php/navbar.php'; ?>
-<?php include_once("analyticstracking.php") ?>
+<?php include_once('php/analyticstracking.php'); ?>
 <div class="section no-pad" id="index-banner">
     <div class="row">
         <div class="col s12 m6 l4 xl3">
